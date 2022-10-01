@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 body{
     background-color: #000000;
     text-align: center;
-    color: white;
+    color: #FFB703;
+    font-family: 'Mulish', sans-serif;
 }
+
+main{
+    margin-top: 3rem;
+    /* height: 400px; */
+}
+#output-para{
+    color: #1597BB;
+    /* font-weight: bolder; */
+    font-size: 1.3rem;
+}
+
+#check-btn{
+    background-color: #1597BB;
+    display: block;
+    margin:auto;
+    margin-top: 1rem;
+    padding: 10px;
+    width: 8rem;
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold; 
+}
+
+#check-btn:hover{
+    background-color: white;
+}
+#date-input{
+    padding: 0.5rem;
+    border-radius: 7px;
+}
+.input-label{
+    font-size: 1.3rem;
+    text-align: center;
+}
+footer{
+    /* height: 100px; */
+    margin-top: 20rem;
+    border: 2px solid red;
+}
+#footer-name{
+    color:white;
+    text-decoration: none;
+}
+#footer-name:hover{
+    color:wheat;
+}
+
+
